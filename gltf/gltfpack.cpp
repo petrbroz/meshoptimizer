@@ -1006,7 +1006,7 @@ int gltfpack(const char* input, const char* output, const char* report, Settings
 
 	if (oext == ".glb")
 	{
-		settings.texture_embed = true;
+		settings.texture_embed = false;
 	}
 
 	std::string json, bin, fallback;
